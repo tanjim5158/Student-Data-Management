@@ -62,7 +62,7 @@ int main() {
             scanf(" %c", &students[n].section);
 
             printf("Enter student name: ");
-            scanf(" %49[^\n]", students[n].name);
+            scanf(" %[^\n]", students[n].name);
 
             printf("Enter roll: ");
             scanf("%d", &students[n].roll);
@@ -211,8 +211,8 @@ int main() {
 
                         printf("\nBatch: %d\n", students[i].batch);
                         printf("Section: %c\n", students[i].section);
-                        printf("Name: %s\n", students[i].name);
-                        printf("Roll: %d\n", students[i].roll);
+                        printf("Name:    %s\n", students[i].name);
+                        printf("Roll:    %d\n", students[i].roll);
 
                         for (int j = 0; j < 3; j++) {
 
@@ -255,8 +255,8 @@ int main() {
 
                         printf("\nBatch: %d\n", students[i].batch);
                         printf("Section: %c\n", students[i].section);
-                        printf("Name: %s\n", students[i].name);
-                        printf("Roll: %d\n", students[i].roll);
+                        printf("Name:    %s\n", students[i].name);
+                        printf("Roll:    %d\n", students[i].roll);
 
                         for (int j = 0; j < 3; j++) {
 
