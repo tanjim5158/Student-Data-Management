@@ -246,12 +246,14 @@ int main() {
 
                 printf("\nEnter Roll Number: ");
                 scanf("%d", &searchRoll);
+                printf("\nEnter Batch: ");
+                scanf("%d",&batchsearch);
 
                 found = 0;
 
                 for (int i = 0; i < n; i++) {
 
-                    if (students[i].roll == searchRoll) {
+                    if (students[i].roll == searchRoll && students[i].batch == batchsearch) {
 
                         printf("\nBatch: %d\n", students[i].batch);
                         printf("Section: %c\n", students[i].section);
