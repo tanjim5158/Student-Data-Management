@@ -42,7 +42,7 @@ int main() {
         printf("Your choice: ");
         scanf("%d", &choice);
 
-        getchar();
+       
 
         switch(choice) {
 
